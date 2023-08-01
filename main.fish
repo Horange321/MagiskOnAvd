@@ -25,10 +25,12 @@ mv libbusybox.so busybox
 chmod +x busybox
 adb push busybox /data/local/tmp
 
+#patch
 adb push avd_patch.sh /data/local/tmp
 adb push magisk.apk /data/local/tmp
 adb push ramdisk.img /data/local/tmp/ramdisk.cpio.tmp
 adb shell sh /data/local/tmp/avd_patch.sh
 
+mv ramdisk.img ramdisk.bak.img
 adb pull /data/local/tmp/ramdisk.cpio.gz ramdisk.img
 echo Finish!

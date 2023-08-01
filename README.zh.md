@@ -5,7 +5,7 @@
 # 使用方法
 1. 安装 **fish git adb unzip**
 2. clone这个仓库
-3. **！！备份！！** 并复制 **ramdisk.img & advancedFeatures.ini** 到这里。 (通常在 ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
+3. 复制 **ramdisk.img & advancedFeatures.ini** 到这里。 (通常在 ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
 4. 下载**magisk.apk**并放在这个文件夹
 5. avd，启动！
 6. 运行`fish main.fish`

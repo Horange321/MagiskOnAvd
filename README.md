@@ -5,7 +5,7 @@ More information at [Official Magisk repository](https://github.com/topjohnwu/Ma
 # Usage
 1. Install **fish git adb unzip**
 1. Clone this repository
-2. **!! Backup !!** and copy **ramdisk.img & advancedFeatures.ini** here. (Usually they are in ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
+2. Copy **ramdisk.img & advancedFeatures.ini** here. (Usually they are in ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
 3. Download **magisk.apk** here
 4. Start avd
 4. Run `fish main.fish`
