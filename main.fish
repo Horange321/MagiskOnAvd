@@ -13,8 +13,8 @@ chk_file ramdisk.img
 chk_file advancedFeatures.ini
 
 #处理advancedFeatures.ini
-mv advancedFeatures.ini advancedFeatures.bak.ini
-sed -e "s/SystemAsRoot = on/SystemAsRoot = off/" advancedFeatures.bak.ini >advancedFeatures.ini
+backup advancedFeatures.ini
+sed -e "s/SystemAsRoot = on/SystemAsRoot = off/" advancedFeatures.backup.ini >advancedFeatures.ini
 
 #Get busybox
 echo Please start avd
@@ -31,6 +31,6 @@ adb push magisk.apk /data/local/tmp
 adb push ramdisk.img /data/local/tmp/ramdisk.cpio.tmp
 adb shell sh /data/local/tmp/avd_patch.sh
 
-mv ramdisk.img ramdisk.bak.img
+backup ramdisk.img
 adb pull /data/local/tmp/ramdisk.cpio.gz ramdisk.img
 echo Finish!
