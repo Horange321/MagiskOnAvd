@@ -33,4 +33,5 @@ adb shell sh /data/local/tmp/avd_patch.sh
 
 mv ramdisk.img ramdisk.bak.img
 adb pull /data/local/tmp/ramdisk.cpio.gz ramdisk.img
+adb -e install magisk.apk
 echo Finish!
