@@ -14,5 +14,5 @@ More information at [Official Magisk repository](https://github.com/topjohnwu/Ma
 6. Start avd again, and you can find magisk now
 
 # License
-Of course same to Official Magisk \
+Of course same as Official Magisk \
 **GPL-3**
