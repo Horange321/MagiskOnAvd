@@ -14,7 +14,7 @@ chk_file advancedFeatures.ini
 
 #处理advancedFeatures.ini
 mv advancedFeatures.ini advancedFeatures.bak.ini
-sed -e "s/SystemAsRoot = on/SystemAsRoot = off/" advancedFeatures.backup.ini >advancedFeatures.ini
+sed -e "s/SystemAsRoot = on/SystemAsRoot = off/" advancedFeatures.bak.ini >advancedFeatures.ini
 
 #Get busybox
 echo Please start avd
