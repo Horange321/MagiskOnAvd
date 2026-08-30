@@ -7,10 +7,9 @@
 2. clone这个仓库
 3. 复制 **ramdisk.img & advancedFeatures.ini** 到这里。 (通常在 ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
 4. 下载**magisk.apk**并放在这个文件夹
-5. avd，启动！
+5. 解压 `ramdisk.img`，得到 `ramdisk.cpio`.
 6. 运行`fish main.fish`
-7. 关闭avd
-8. 把 **ramdisk.img & advancedFeatures.ini** 放回去
+7. 把 **work/ramdisk.img & advancedFeatures.ini** 放回去
 
 # 许可证
 和官方Magisk一样 \

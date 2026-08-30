@@ -4,14 +4,12 @@ More information at [Official Magisk repository](https://github.com/topjohnwu/Ma
 
 # Usage
 1. Install **fish git adb unzip**
-1. Clone this repository
-2. Copy **ramdisk.img & advancedFeatures.ini** here. (Usually they are in ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
-3. Download **magisk.apk** here
-4. Start avd
-4. Run `fish main.fish`
-5. Shutdown avd
-5. Copy **ramdisk.img & advancedFeatures.ini** back
-6. Start avd again, and you can find magisk now
+2. Clone this repository
+3. Copy **ramdisk.img & advancedFeatures.ini** here. (Usually they are in ~/Android/Sdk/system-images/android-*api*/*type*/*abi*)
+4. Download **magisk.apk** here
+5. Decompress `ramdisk.img` to get `ramdisk.cpio`.
+6. Run `fish main.fish`
+7. Copy **work/ramdisk.img & advancedFeatures.ini** back
 
 # License
 Of course same as Official Magisk \
